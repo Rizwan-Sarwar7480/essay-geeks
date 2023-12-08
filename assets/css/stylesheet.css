@@ -150,7 +150,7 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
 }
 .rs__banner .rs-grid2 .form-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .rs__banner .rs-grid2 .form-wrap form {
