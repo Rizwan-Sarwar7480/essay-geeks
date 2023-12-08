@@ -831,6 +831,20 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
 .content-area {
     padding: 0px 0px 40px;
 }
+.rs__features .rs-grid4 .rs-col:nth-child(2) img {
+    width: 71px;
+    height: 71px;
+}
+
+.rs__features .rs-grid4 .rs-col:nth-child(3) img {
+    width: 75px;
+    height: 75px;
+}
+
+.rs__features .rs-grid4 .rs-col:nth-child(4) img {
+    width: 60px;
+    height: 72px;
+}
 .rs__footer .rs-grid3 ul li a:hover {
     text-decoration: underline;
 }
@@ -879,8 +893,8 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
         justify-content: right;
     }
     .rs__features .rs-grid4 .rs-col img {
-        width: 50px;
-        height: 50px;
+        width: 79px;
+        height: 80px;
     }
     .rs__features .rs-grid4 .rs-col {
         gap: 14px;
@@ -896,8 +910,8 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
         margin: 0px 0px 60px;
     }
     .rs__services .rs-grid4 .rs-icon-wrap img {
-        width: 54px;
-        height: 55px;
+        /* width: 54px;
+        height: 55px; */
     }
     .rs__services .rs-grid4 .rs-icon-wrap::before {
         transform: translate(0px, -24px);
@@ -1166,7 +1180,6 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
         justify-content: center;
     }
 }
-
 @media (max-width: 768px) {
     .cantainer {
         width: 90%;
@@ -1255,12 +1268,17 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
     }
 }
 @media (max-width: 568px) {
+    .rs__features .cantainer {
+        width: 100%;
+    }
     header .rs-grid2 .rs-col .rs-grid4 .rs-col:nth-child(2), header .rs-grid2 .rs-col .rs-grid4 .rs-col:nth-child(3) {
         display: none;
     }
     .rs__features .rs-grid4 {
-        grid-template-columns: 100%;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
+        border-radius: unset;
+        box-shadow: unset;
     }
     .rs__banner .rs-grid2 .rs-col:nth-child(1) {
         min-height: auto;
@@ -1306,5 +1324,8 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
     }
     .testimonials .rs-grid2 {
         padding: 55px 0px 0px;
+    }
+    .rs__services .rs-grid4 {
+        width: 100%;
     }
 }
