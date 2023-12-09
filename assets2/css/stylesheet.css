@@ -171,7 +171,6 @@ header .rs-grid2 .rs-col .rs-grid4 .rs-col a.rs-header-menu.rs-order-now:hover {
     border: 1px solid lightgray;
     position: relative;
     padding: 30px;
-    overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 8px 18px #8bb2de;
 }
