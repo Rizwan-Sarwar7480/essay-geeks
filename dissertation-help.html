@@ -23,6 +23,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <!-- splide -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <!-- intel tel input -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.3.3/css/intlTelInput.css" integrity="sha512-0MvDK6EKxNTNdRSbB3hF2+1kLkJgC9yHVDf//8hPfEI2cDfy/Mezjw9BsSyA61uX2Vkk9iDOJAHoBToust2lsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- stylesheet -->
     <link rel="stylesheet" href="assets2/css/stylesheet.css">
 </head>
@@ -53,12 +55,11 @@
                         </div>
                         <!-- menu -->
                         <div class="rs-col">
-                            <a href="#" class="rs-header-menu rs-order-now">
+                            <a href="javascript:void(Tawk_API.toggle())" class="rs-header-menu rs-order-now">
                                 Order Now
                             </a>
                         </div>
-                        <!-- menu -->
-                        <div class="rs-col">
+                        <!-- <div class="rs-col">
                             <a href="#" class="rs-header-menu">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-person" viewBox="0 0 16 16">
@@ -68,7 +69,6 @@
                                 Login
                             </a>
                         </div>
-                        <!-- menu -->
                         <div class="rs-col">
                             <a href="#" class="rs-header-menu">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -78,7 +78,7 @@
                                 </svg>
                                 Menu
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                         <h1>Best Dissertation Writing Service in the UK</h1>
                         <p>Crafting excellence in every chapter: Your trusted partner for top-tier dissertation writing services.</p>
                         <!-- <p>Use discount code <span class="rs-dotted">Cookie15</span> and get <span>15% OFF</span> your first order</p> -->
-                        <a href="#">Order Now</a>
+                        <a href="javascript:void(Tawk_API.toggle())">Order Now</a>
                     </div>
                 </div>
                 <!-- banner form -->
@@ -141,8 +141,8 @@
                                     <div class="label-wrap">
                                         <label for=""></label>
                                     </div>
-                                    <div class="input-wrap">
-                                        <input type="number" placeholder="Enter Your Phone Number" name="pn" required>
+                                    <div class="input-wrap rs-phone-wrap">
+                                        <input name="pn" id="phone" type="tel">
                                     </div>
                                 </div>
                                 <!-- field -->
@@ -410,7 +410,7 @@
                 </div>
                 <div class="rs-col">
                     <div class="btn-wrap">
-                        <a href="#">Order Now</a>
+                        <a href="javascript:void(Tawk_API.toggle())">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -429,7 +429,7 @@
                     <div class="text-wrap">
                         <span>About Us</span>
                         <p>A service that caters all your academic needs is a rare find as it can be quite difficult to pick wisely online but our presence in the virtual world of over a decade makes us the first choice of students and professionals from all around the globe. Client satisfaction is the key for Essaytation. If you came across Essaytation, it is like you found the needle in the haystack, you would cherish this for a long time.</p>
-                        <a href="#">More Info About Us</a>
+                        <a href="javascript:void(Tawk_API.toggle())">Live Chat</a>
                     </div>
                 </div>
             </div>
@@ -563,7 +563,7 @@
                 </div>
                 <div class="rs-col">
                     <div class="btn-wrap">
-                        <a href="#">Order Now</a>
+                        <a href="javascript:void(Tawk_API.toggle())">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -638,7 +638,7 @@
                             <img src="assets2/images/bg2.png" alt="image">
                         </div>
                     </div>
-                    <div class="rs-col">
+                    <!-- <div class="rs-col">
                         <ul>
                             <li class="heading">Quick Links</li>
                             <li><a href="how-it-works">How It Works</a></li>
@@ -648,7 +648,7 @@
                             <li><a href="terms">Terms &amp; Conditions</a></li>
                             <li><a href="privacy">Privacy Policy</a></li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="rs-col rs-grid2">
                         <ul>
                             <li class="heading">Services</li>
@@ -663,8 +663,6 @@
             <div class="cantainer">
                 <p class="disclaimer">DISCLAIMER: The services provided by Essaytation can only be used for reference purpose. Essaytation assist the buyer by providing a guideline and the product provided is intended to be used for research or study purposes only.</p>
                 <p class="copyright">©  Essaytation 2024 All Rights Reserved</p>
-                <!-- <p class="copyright">A Company Name: Careersboost Limited A Company address: Panagioti Tsangari 2, DASOUDI 1, 3rd Floor, Flat/Office 32, Potamos Germasogeias, 4047, Limassol, Cyprus.A Company number: HE379679 A VAT number: CY10379679P</p>
-                <a href="#"><img src="assets2/images/dmca_premi_badge_4.png" alt="image"></a> -->
             </div>
         </div>
     </footer>
@@ -673,6 +671,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 <!-- splide scroll -->
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+<!-- intel tel input -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.3.3/js/intlTelInput.min.js" integrity="sha512-HoBrREvUEj0mAjZNIMKua+9AKiZgtISopFgQlpnGxZIqSaJIxJPHBVAu2DCk7aCpzHcVappgoZalXr9V8RR7Vg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- script -->
 <script src="assets2/js/script.js"></script>
 </html>
